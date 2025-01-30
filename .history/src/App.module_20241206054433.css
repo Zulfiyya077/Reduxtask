@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    margin: 50px 100px;
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+   
+}
+
+.message {
+   
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 200px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.button.signIn {
+    background-color: #096d0d;
+}
+
+.button.signOut {
+    background-color: #b836f4;
+}
+
+
+.smile{
+    font-size: 56px;
+    margin: 20px;
+}
